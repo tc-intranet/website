@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Menter management</h1>
+  <p>Velkommen til Mentor management, developed for<em> TalentCamp.dk</em>!</p>
+  <h2>Dynamic content</h2>
+  <p>The library has the following record counts:</p>
+  <ul>
+    <li><strong>mentees:</strong> {{ num_mentee }}</li>
+    <li><strong>mentors:</strong> {{ num_mentor }}</li>
+    <li><strong>mentorgroups:</strong> {{ num_mentorgroup }}</li>
+  </ul>
+{% endblock %}
